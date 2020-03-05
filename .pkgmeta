@@ -1,0 +1,4 @@
+ignore:
+    - resourcesPNG
+    - README.md
+    - LICENSE
