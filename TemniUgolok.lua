@@ -107,6 +107,7 @@ Emoticons_Settings={
 	["wut"]="Interface\\AddOns\\TemniUgolok\\resources\\wut.tga:20:20",
 	["zachemObidel"]="Interface\\AddOns\\TemniUgolok\\resources\\zachemObidel.tga:20:20",
 	["zemlyaPuhom"]="Interface\\AddOns\\TemniUgolok\\resources\\zemlyaPuhom.tga:20:20",
+    ["fiend"]="Interface\\AddOns\\TemniUgolok\\resources\\fiend.tga:20:20",
   };
   local emoticons={
 	["omegalul"]="omegalul",
@@ -221,10 +222,12 @@ Emoticons_Settings={
 	[":zp:"]="zemlyaPuhom",
 	[":pch:"]="pogChamp",
 	[":re:"]="raintruEbalo",
+    ["fiend"]="fiend",
+    [":fiend:"]="fiend",
   };
   local dropdown_options={
   
-	[01]=  {"Темный Уголок","omegalul","agaDrochish","ahri","bdumTss","belok","burn","damagNahuiNeNuzhen","dcPriest","derzhiVKurse","doubleTilt","feelsBadMan","fufaikaStasa","gloom","gloomChmok","hmm","jirokUprls","kappa","kappaPride","know","kovanich","mirkusha","molodchaga","monkas","neShutiTak","notLike","ohueliSovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogChamp","raintru","raintruEbalo","raintruKaef","raintruNeKaef","sadboy","shto","slowPoke","spsBlizzard","wut","zachemObidel","zemlyaPuhom"},
+	[01]=  {"Темный Уголок","omegalul","agaDrochish","ahri","bdumTss","belok","burn","damagNahuiNeNuzhen","dcPriest","derzhiVKurse","doubleTilt","feelsBadMan","fufaikaStasa","gloom","gloomChmok","hmm","jirokUprls","kappa","kappaPride","know","kovanich","mirkusha","molodchaga","monkas","neShutiTak","notLike","ohueliSovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogChamp","raintru","raintruEbalo","raintruKaef","raintruNeKaef","sadboy","shto","slowPoke","spsBlizzard","wut","zachemObidel","zemlyaPuhom","fiend"},
 };
   
   
