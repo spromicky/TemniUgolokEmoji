@@ -2,3 +2,4 @@ ignore:
     - resourcesPNG
     - README.md
     - LICENSE
+    - deploy.sh
