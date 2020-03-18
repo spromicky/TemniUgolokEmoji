@@ -234,7 +234,9 @@ Emoticons_Settings={
   };
   local dropdown_options={
   
-	[01]=  {"Темный Уголок","omegalul","agaDrochish","ahri","bdumTss","belok","burn","damagNahuiNeNuzhen","dcPriest","derzhiVKurse","doubleTilt","feelsBadMan","fufaikaStasa","gloom","gloomChmok","hmm","jirokUprls","kappa","kappaPride","know","kovanich","mirkusha","molodchaga","monkas","neShutiTak","notLike","ohueliSovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogChamp","raintru","raintruEbalo","raintruKaef","raintruNeKaef","sadboy","shto","slowPoke","spsBlizzard","wut","zachemObidel","zemlyaPuhom","fiend"},
+     [01]=  {"Discord-style",":aga_drochish:",":damag_nahui_ne_nuzhen:",":bdum_tss:",":raintru_ebalo:",":gloom_chmok:",":double_tilt:",":PogChamp:",":jirok_uprls:",":fufaika_stasa:",":raintru_kaef:",":ne_shuti_tak:",":pepeclown:",":Kappapride:",":FeelsBadMan:",":olegalul:",":dc_priest:",":zachem_obidel:",":sps_blizzard:",":raintru_nekaef:",":ohueli_sovsem:",":derzhi_v_kurse:",":omegalul:",":molodchaga:",":zemlya_puhom:",":ahri:",":belok:",":BURN:",":ooooo:",":opa:",":mirkusha:",":raintru:",":hmm:",":notlike:",":Kappa:",":slowpoke:",":known:",":monkas:",":kovanich:",":SADBOY:",":gloom:",":shto:",":wut:",":PEPEGA:",":fiend:",":rfiend:",":oshotik_zaebal:"},
+	 [02]=  {"Названия файла","agaDrochish","damagNahuiNeNuzhen","bdumTss","raintruEbalo","gloomChmok","doubleTilt","pogChamp","jirokUprls","fufaikaStasa","raintruKaef","neShutiTak","pepeclown","kappaPride","feelsBadMan","olegalul","dcPriest","zachemObidel","spsBlizzard","raintruNeKaef","ohueliSovsem","derzhiVKurse","omegalul","molodchaga","zemlyaPuhom","ahri","belok","burn","ooooooo","opa","mirkusha","raintru","hmm","notLike","kappa","slowPoke","know","monkas","kovanich","sadboy","gloom","shto","wut","pepega","fiend","rfiend","oshotikZaebal"},
+     [03]=  {"Сокращения",":ad:",":aga:",":dnnn:",":bdum:",":re:",":gc:",":dt:",":pch:",":ju:",":fs:",":rk:",":nst:",":pc:",":kp:",":fbm:",":olul:",":dc:",":zo:",":sps:",":rnk:",":os:",":dvk:",":ol:",":lul:",":mldg:",":zp:",":oz:"},
 };
   
   
@@ -369,7 +371,7 @@ end
 		  first = false;
 		else
 		  --print(ke.." "..va);
-		  info.text       = "|T"..defaultpack[va].."|t "..va;
+		  info.text       = "|T"..defaultpack[emoticons[va]].."|t "..va;
 		  info.value      = va;
 		  info.func = Emoticons_Dropdown_OnClick;
 		  Lib_UIDropDownMenu_AddButton(info, level);
