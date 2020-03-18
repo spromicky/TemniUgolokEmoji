@@ -21,6 +21,7 @@ Emoticons_Settings={
 	["TWITCHBUTTON"]=true,
 	["sliderX"]=-35,
 	["sliderY"]=0,
+    ["iconsSize"]=20,
 	["MinimapPos"] = 45,
 	["MINIMAPBUTTON"] = true,
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
@@ -55,6 +56,7 @@ Emoticons_Settings={
 	["TWITCHBUTTON"]=true,
 	["sliderX"]=-35,
 	["sliderY"]=0,
+    ["iconsSize"]=20,
 	["MinimapPos"] = 45,
 	["MINIMAPBUTTON"] = true,
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
@@ -64,52 +66,52 @@ Emoticons_Settings={
   };
   
   local defaultpack={
-	["agaDrochish"]="Interface\\AddOns\\TemniUgolok\\resources\\agaDrochish.tga:20:20",
-	["omegalul"]="Interface\\AddOns\\TemniUgolok\\resources\\omegalul.tga:20:20",
-	["ahri"]="Interface\\AddOns\\TemniUgolok\\resources\\ahri.tga:20:20",
-	["bdumTss"]="Interface\\AddOns\\TemniUgolok\\resources\\bdumTss.tga:20:20",
-	["belok"]="Interface\\AddOns\\TemniUgolok\\resources\\belok.tga:20:20",
-	["burn"]="Interface\\AddOns\\TemniUgolok\\resources\\burn.tga:20:20",
-	["damagNahuiNeNuzhen"]="Interface\\AddOns\\TemniUgolok\\resources\\damagNahuiNeNuzhen.tga:20:20",
-	["dcPriest"]="Interface\\AddOns\\TemniUgolok\\resources\\dcPriest.tga:20:20",
-	["derzhiVKurse"]="Interface\\AddOns\\TemniUgolok\\resources\\derzhiVKurse.tga:20:20",
-	["doubleTilt"]="Interface\\AddOns\\TemniUgolok\\resources\\doubleTilt.tga:20:20",
-	["feelsBadMan"]="Interface\\AddOns\\TemniUgolok\\resources\\feelsBadMan.tga:20:20",
-	["fufaikaStasa"]="Interface\\AddOns\\TemniUgolok\\resources\\fufaikaStasa.tga:20:20",
-	["gloom"]="Interface\\AddOns\\TemniUgolok\\resources\\gloom.tga:20:20",
-	["gloomChmok"]="Interface\\AddOns\\TemniUgolok\\resources\\gloomChmok.tga:20:20",
-	["hmm"]="Interface\\AddOns\\TemniUgolok\\resources\\hmm.tga:20:20",
-	["jirokUprls"]="Interface\\AddOns\\TemniUgolok\\resources\\jirokUprls.tga:20:20",
-	["kappa"]="Interface\\AddOns\\TemniUgolok\\resources\\kappa.tga:20:20",
-	["kappaPride"]="Interface\\AddOns\\TemniUgolok\\resources\\kappaPride.tga:20:20",
-	["know"]="Interface\\AddOns\\TemniUgolok\\resources\\know.tga:20:20",
-	["kovanich"]="Interface\\AddOns\\TemniUgolok\\resources\\kovanich.tga:20:20",
-	["mirkusha"]="Interface\\AddOns\\TemniUgolok\\resources\\mirkusha.tga:20:20",
-	["molodchaga"]="Interface\\AddOns\\TemniUgolok\\resources\\molodchaga.tga:20:20",
-	["monkas"]="Interface\\AddOns\\TemniUgolok\\resources\\monkas.tga:20:20",
-	["neShutiTak"]="Interface\\AddOns\\TemniUgolok\\resources\\neShutiTak.tga:20:20",
-	["notLike"]="Interface\\AddOns\\TemniUgolok\\resources\\notLike.tga:20:20",
-	["ohueliSovsem"]="Interface\\AddOns\\TemniUgolok\\resources\\ohueliSovsem.tga:20:20",
-	["olegalul"]="Interface\\AddOns\\TemniUgolok\\resources\\olegalul.tga:20:20",
-	["ooooooo"]="Interface\\AddOns\\TemniUgolok\\resources\\ooooooo.tga:20:20",
-	["opa"]="Interface\\AddOns\\TemniUgolok\\resources\\opa.tga:20:20",
-	["pepeclown"]="Interface\\AddOns\\TemniUgolok\\resources\\pepeclown.tga:20:20",
-	["pepega"]="Interface\\AddOns\\TemniUgolok\\resources\\pepega.tga:20:20",
-	["pogChamp"]="Interface\\AddOns\\TemniUgolok\\resources\\pogChamp.tga:20:20",
-	["raintru"]="Interface\\AddOns\\TemniUgolok\\resources\\raintru.tga:20:20",
-	["raintruEbalo"]="Interface\\AddOns\\TemniUgolok\\resources\\raintruEbalo.tga:20:20",
-	["raintruKaef"]="Interface\\AddOns\\TemniUgolok\\resources\\raintruKaef.tga:20:20",
-	["raintruNeKaef"]="Interface\\AddOns\\TemniUgolok\\resources\\raintruNeKaef.tga:20:20",
-	["sadboy"]="Interface\\AddOns\\TemniUgolok\\resources\\sadboy.tga:20:20",
-	["shto"]="Interface\\AddOns\\TemniUgolok\\resources\\shto.tga:20:20",
-	["slowPoke"]="Interface\\AddOns\\TemniUgolok\\resources\\slowPoke.tga:20:20",
-	["spsBlizzard"]="Interface\\AddOns\\TemniUgolok\\resources\\spsBlizzard.tga:20:20",
-	["wut"]="Interface\\AddOns\\TemniUgolok\\resources\\wut.tga:20:20",
-	["zachemObidel"]="Interface\\AddOns\\TemniUgolok\\resources\\zachemObidel.tga:20:20",
-	["zemlyaPuhom"]="Interface\\AddOns\\TemniUgolok\\resources\\zemlyaPuhom.tga:20:20",
-    ["fiend"]="Interface\\AddOns\\TemniUgolok\\resources\\fiend.tga:20:20",
-    ["rfiend"]="Interface\\AddOns\\TemniUgolok\\resources\\rfiend.tga:20:20",
-    ["oshotikZaebal"]="Interface\\AddOns\\TemniUgolok\\resources\\oshotikZaebal.tga:20:20",
+	["agaDrochish"]="Interface\\AddOns\\TemniUgolok\\resources\\agaDrochish.tga",
+	["omegalul"]="Interface\\AddOns\\TemniUgolok\\resources\\omegalul.tga",
+	["ahri"]="Interface\\AddOns\\TemniUgolok\\resources\\ahri.tga",
+	["bdumTss"]="Interface\\AddOns\\TemniUgolok\\resources\\bdumTss.tga",
+	["belok"]="Interface\\AddOns\\TemniUgolok\\resources\\belok.tga",
+	["burn"]="Interface\\AddOns\\TemniUgolok\\resources\\burn.tga",
+	["damagNahuiNeNuzhen"]="Interface\\AddOns\\TemniUgolok\\resources\\damagNahuiNeNuzhen.tga",
+	["dcPriest"]="Interface\\AddOns\\TemniUgolok\\resources\\dcPriest.tga",
+	["derzhiVKurse"]="Interface\\AddOns\\TemniUgolok\\resources\\derzhiVKurse.tga",
+	["doubleTilt"]="Interface\\AddOns\\TemniUgolok\\resources\\doubleTilt.tga",
+	["feelsBadMan"]="Interface\\AddOns\\TemniUgolok\\resources\\feelsBadMan.tga",
+	["fufaikaStasa"]="Interface\\AddOns\\TemniUgolok\\resources\\fufaikaStasa.tga",
+	["gloom"]="Interface\\AddOns\\TemniUgolok\\resources\\gloom.tga",
+	["gloomChmok"]="Interface\\AddOns\\TemniUgolok\\resources\\gloomChmok.tga",
+	["hmm"]="Interface\\AddOns\\TemniUgolok\\resources\\hmm.tga",
+	["jirokUprls"]="Interface\\AddOns\\TemniUgolok\\resources\\jirokUprls.tga",
+	["kappa"]="Interface\\AddOns\\TemniUgolok\\resources\\kappa.tga",
+	["kappaPride"]="Interface\\AddOns\\TemniUgolok\\resources\\kappaPride.tga",
+	["know"]="Interface\\AddOns\\TemniUgolok\\resources\\know.tga",
+	["kovanich"]="Interface\\AddOns\\TemniUgolok\\resources\\kovanich.tga",
+	["mirkusha"]="Interface\\AddOns\\TemniUgolok\\resources\\mirkusha.tga",
+	["molodchaga"]="Interface\\AddOns\\TemniUgolok\\resources\\molodchaga.tga",
+	["monkas"]="Interface\\AddOns\\TemniUgolok\\resources\\monkas.tga",
+	["neShutiTak"]="Interface\\AddOns\\TemniUgolok\\resources\\neShutiTak.tga",
+	["notLike"]="Interface\\AddOns\\TemniUgolok\\resources\\notLike.tga",
+	["ohueliSovsem"]="Interface\\AddOns\\TemniUgolok\\resources\\ohueliSovsem.tga",
+	["olegalul"]="Interface\\AddOns\\TemniUgolok\\resources\\olegalul.tga",
+	["ooooooo"]="Interface\\AddOns\\TemniUgolok\\resources\\ooooooo.tga",
+	["opa"]="Interface\\AddOns\\TemniUgolok\\resources\\opa.tga",
+	["pepeclown"]="Interface\\AddOns\\TemniUgolok\\resources\\pepeclown.tga",
+	["pepega"]="Interface\\AddOns\\TemniUgolok\\resources\\pepega.tga",
+	["pogChamp"]="Interface\\AddOns\\TemniUgolok\\resources\\pogChamp.tga",
+	["raintru"]="Interface\\AddOns\\TemniUgolok\\resources\\raintru.tga",
+	["raintruEbalo"]="Interface\\AddOns\\TemniUgolok\\resources\\raintruEbalo.tga",
+	["raintruKaef"]="Interface\\AddOns\\TemniUgolok\\resources\\raintruKaef.tga",
+	["raintruNeKaef"]="Interface\\AddOns\\TemniUgolok\\resources\\raintruNeKaef.tga",
+	["sadboy"]="Interface\\AddOns\\TemniUgolok\\resources\\sadboy.tga",
+	["shto"]="Interface\\AddOns\\TemniUgolok\\resources\\shto.tga",
+	["slowPoke"]="Interface\\AddOns\\TemniUgolok\\resources\\slowPoke.tga",
+	["spsBlizzard"]="Interface\\AddOns\\TemniUgolok\\resources\\spsBlizzard.tga",
+	["wut"]="Interface\\AddOns\\TemniUgolok\\resources\\wut.tga",
+	["zachemObidel"]="Interface\\AddOns\\TemniUgolok\\resources\\zachemObidel.tga",
+	["zemlyaPuhom"]="Interface\\AddOns\\TemniUgolok\\resources\\zemlyaPuhom.tga",
+    ["fiend"]="Interface\\AddOns\\TemniUgolok\\resources\\fiend.tga",
+    ["rfiend"]="Interface\\AddOns\\TemniUgolok\\resources\\rfiend.tga",
+    ["oshotikZaebal"]="Interface\\AddOns\\TemniUgolok\\resources\\oshotikZaebal.tga",
   };
   local emoticons={
 	["omegalul"]="omegalul",
@@ -371,7 +373,7 @@ end
 		  first = false;
 		else
 		  --print(ke.." "..va);
-		  info.text       = "|T"..defaultpack[emoticons[va]].."|t "..va;
+		  info.text       = "|T"..defaultpack[emoticons[va]].."%:20%:20".."|t "..va;
 		  info.value      = va;
 		  info.func = Emoticons_Dropdown_OnClick;
 		  Lib_UIDropDownMenu_AddButton(info, level);
@@ -389,6 +391,10 @@ end
   function Emoticons_Setyposi(y)
 	Emoticons_Settings["sliderY"]=y;
 	b:SetPoint("TOPLEFT",Emoticons_Settings["sliderX"],Emoticons_Settings["sliderY"]);
+  end
+
+  function Icons_Size_Changed(y)
+    Emoticons_Settings["iconsSize"]=y;
   end
   
   function Emoticons_Dropdown_OnClick(self,arg1,arg2,arg3)
@@ -481,11 +487,13 @@ end
 	end
 	SliderXText:SetText("Position X: "..Emoticons_Settings["sliderX"]);
 	SliderYText:SetText("Position Y: "..Emoticons_Settings["sliderY"]);
+    IconsSizeText:SetText("Icons Size: "..Emoticons_Settings["iconsSize"]);
+    IconsSize:SetValue(Emoticons_Settings["iconsSize"])
 	--EmoticonsOptionsControlsPanelEyecandy:SetChecked(Emoticons_Eyecandy);
   
 	favall = CreateFrame("CheckButton","favall_GlobalName",EmoticonsOptionsControlsPanel,"UIRadioButtonTemplate" );
 	--getglobal("favall_GlobalName"):SetChecked(false);
-	favall:SetPoint("TOPLEFT", 17,-330);
+	favall:SetPoint("TOPLEFT", 17,-380);
 	getglobal(favall:GetName().."Text"):SetText("Check all");
 	favall.tooltip = "Check all boxes below.";
 	getglobal("favall_GlobalName"):SetScript("OnClick",
@@ -535,7 +543,7 @@ end
   
 	favframe = CreateFrame("Frame", "favframe_GlobalName", favall_GlobalName);
 	favframe:SetPoint("TOPLEFT", 0,-24);
-	favframe:SetSize(590,175);
+	favframe:SetSize(590,125);
   
 	favframe:SetBackdrop({bgFile="Interface\\ChatFrame\\ChatFrameBackground",edgeFile="Interface\\Tooltips\\UI-Tooltip-Border",tile=true,tileSize=5,edgeSize= 2,});
 	favframe:SetBackdropColor(0, 0, 0,0.5);
@@ -668,12 +676,12 @@ end
   	--print(table.getn(words)) ;
 	for k,v in pairs(emoticons) do
 	  if (string.find(msg,k,1,true)) then
-		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."|t%2");
-		msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."|t");
-		msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."|t%1");
-		msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."|t");
-		msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."|t%2");
-		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."|t%2");
+		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%2");
+		msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t");
+		msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%1");
+		msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t");
+		msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%2");
+		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%2");
 	  end
 	end
 

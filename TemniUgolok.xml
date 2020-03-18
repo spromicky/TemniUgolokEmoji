@@ -317,11 +317,33 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<Frame name="$ChatFrameChannelButton">
+			<Slider name="IconsSize" minValue="16" maxValue="32" valueStep="1" defaultvalue="20"  inherits="PowaBarSliderTemplate">
+				<Size>
+					<AbsDimension x="280" y="16" />
+				</Size>
 				<Anchors>
 					<Anchor point="TOPLEFT" relativeTo="$parentCHAT_MSG_OFFICER" relativePoint="BOTTOMLEFT">
 						<Offset>
-							<AbsDimension x="0" y="-8"/>
+							<AbsDimension x="0" y="-16"/>
+						</Offset>
+						<Offset/>
+					</Anchor>
+				</Anchors>
+				<Scripts> 
+					<OnLoad>
+						IconsSizeText:SetText("Icons Size: "..self:GetValue());
+						IconsSizeLow:SetText("16"); 
+						IconsSizeHigh:SetText("32");
+					</OnLoad>
+					<OnValueChanged>Icons_Size_Changed(self:GetValue());IconsSizeText:SetText("Icons Size: "..self:GetValue());</OnValueChanged>
+				</Scripts>
+			</Slider>
+
+			<Frame name="$ChatFrameChannelButton">
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="IconsSize" relativePoint="BOTTOMLEFT">
+						<Offset>
+							<AbsDimension x="0" y="-24"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -378,9 +400,9 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 			</Frame>
 			<CheckButton name="$parentTWITCHBUTTON" inherits="ChatConfigCheckButtonTemplate">
 				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="$parentCHAT_MSG_OFFICER" relativePoint="BOTTOMLEFT">
+					<Anchor point="TOPLEFT" relativeTo="IconsSize" relativePoint="BOTTOMLEFT">
 						<Offset>
-							<AbsDimension x="0" y="-24"/>
+							<AbsDimension x="0" y="-38"/>
 						</Offset>
 					</Anchor>
 				</Anchors>
@@ -536,7 +558,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 							<Anchors>
 								<Anchor point="TOPLEFT" relativeTo="$ChatFrameChannelButton" relativePoint="BOTTOMLEFT">
 									<Offset>
-										<AbsDimension x="0" y="-130"/>
+										<AbsDimension x="0" y="-134"/>
 									</Offset>
 								</Anchor>
 								<Anchor point="RIGHT">
