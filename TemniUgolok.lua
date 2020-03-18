@@ -108,6 +108,7 @@ Emoticons_Settings={
 	["zachemObidel"]="Interface\\AddOns\\TemniUgolok\\resources\\zachemObidel.tga:20:20",
 	["zemlyaPuhom"]="Interface\\AddOns\\TemniUgolok\\resources\\zemlyaPuhom.tga:20:20",
     ["fiend"]="Interface\\AddOns\\TemniUgolok\\resources\\fiend.tga:20:20",
+    ["rfiend"]="Interface\\AddOns\\TemniUgolok\\resources\\rfiend.tga:20:20",
     ["oshotikZaebal"]="Interface\\AddOns\\TemniUgolok\\resources\\oshotikZaebal.tga:20:20",
   };
   local emoticons={
@@ -225,6 +226,8 @@ Emoticons_Settings={
 	[":re:"]="raintruEbalo",
     ["fiend"]="fiend",
     [":fiend:"]="fiend",
+    [":rfiend:"]="rfiend",
+    ["rfiend"]="rfiend",
     ["oshotikZaebal"]="oshotikZaebal",
     [":oshotik_zaebal:"]="oshotikZaebal",
     [":oz:"]="oshotikZaebal",
