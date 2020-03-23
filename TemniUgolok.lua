@@ -114,6 +114,7 @@ Emoticons_Settings={
     ["sheal"]="Interface\\AddOns\\TemniUgolok\\resources\\sheal.tga",
     ["arms"]="Interface\\AddOns\\TemniUgolok\\resources\\arms.tga",
     ["know"]="Interface\\AddOns\\TemniUgolok\\resources\\know.tga",
+    ["taktikaGalaktika"]="Interface\\AddOns\\TemniUgolok\\resources\\taktikaGalaktika.tga",
   };
   local emoticons={
     --Filename
@@ -160,6 +161,7 @@ Emoticons_Settings={
     ["ponimayu"]="ponimayu",
     ["sho"]="sho",
     ["know"]="know",
+    ["taktikaGalaktika"]="taktikaGalaktika",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -208,6 +210,7 @@ Emoticons_Settings={
     [":ponimayu:"]="ponimayu",
     [":sho:"]="sho",
     [":known:"]="know",
+    [":taktika_galaktika:"]="taktikaGalaktika",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -243,6 +246,7 @@ Emoticons_Settings={
     [":lshj:"]="lovushkaJerokera",
     [":npnm:"]="nePonimayu",
     [":pnm:"]="ponimayu",
+    [":tg:"]="taktikaGalaktika",
     --hidden
     [".!."]="arms",
     ["hui"]="arms",
@@ -262,9 +266,9 @@ Emoticons_Settings={
   };
   local dropdown_options={
   
-     [01]=  {"Discord-style",":bdum_tss:",":bdumtss:",":BURN:",":damag_nahui_ne_nuzhen:",":dc_priest:",":pomoika:",":derzhi_v_kurse:",":double_tilt:",":duble_tilt:",":FeelsBadMan:",":fufaika_stasa:",":gloom:",":gloom_chmok:",":GloomChmok:",":hmm:",":jirok_uprls:",":Kappapride:",":kovanich:",":mirkusha:",":molodchaga:",":monkas:",":ne_shuti_tak:",":ohueli_sovsem:",":olegalul:",":ooooo:",":pepeclown:",":opa:",":raintru_nekaef:",":shto:",":PEPEGA:",":SADBOY:",":slowpoke:",":sps_blizzard:",":zachem_obidel:",":raintru_kaef:",":zemlya_puhom:",":wut:",":PogChamp:",":raintru_ebalo:",":raintru:",":Jason:",":lovushka:",":lovushkaJerokera:",":neponimayu:",":ponimayu:",":sho:",":oshotik_zaebal:",":rfiend:",":fiend:",":know:"},
-	 [02]=  {"Названия файла","bdumTss","burn","damagNahuiNeNuzhen","dcPriest","derzhiVKurse","doubleTilt","feelsBadMan","fufaikaStasa","gloom","gloomChmok","hmm","jirokUprls","kappaPride","kovanich","mirkusha","molodchaga","monkas","neShutiTak","ohueliSovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogChamp","raintru","raintruEbalo","raintruKaef","raintruNeKaef","sadboy","shto","slowPoke","spsBlizzard","wut","zachemObidel","zemlyaPuhom","jason","lovushka","lovushkaJerokera","nePonimayu","ponimayu","sho","oshotikZaebal","rfiend","fiend","know"},
-     [03]=  {"Сокращения",":bdum:",":dnnn:",":dc:",":dvk:",":dt:",":fbm:",":fs:",":gc:",":ju:",":kp:",":mldg:",":nst:",":os:",":olul:",":pc:",":rnk:",":sps:",":zo:",":rk:",":zp:",":pch:",":re:",":oz:",":jsn:",":lsh:",":lshj:",":npnm:",":pnm:"},
+     [01]=  {"Discord-style",":bdum_tss:",":bdumtss:",":BURN:",":damag_nahui_ne_nuzhen:",":dc_priest:",":pomoika:",":derzhi_v_kurse:",":double_tilt:",":duble_tilt:",":FeelsBadMan:",":fufaika_stasa:",":gloom:",":gloom_chmok:",":GloomChmok:",":hmm:",":jirok_uprls:",":Kappapride:",":kovanich:",":mirkusha:",":molodchaga:",":monkas:",":ne_shuti_tak:",":ohueli_sovsem:",":olegalul:",":ooooo:",":pepeclown:",":opa:",":raintru_nekaef:",":shto:",":PEPEGA:",":SADBOY:",":slowpoke:",":sps_blizzard:",":zachem_obidel:",":raintru_kaef:",":zemlya_puhom:",":wut:",":PogChamp:",":raintru_ebalo:",":raintru:",":Jason:",":lovushka:",":lovushkaJerokera:",":neponimayu:",":ponimayu:",":sho:",":oshotik_zaebal:",":rfiend:",":fiend:",":known:",":taktika_galaktika:"},
+	 [02]=  {"Названия файла","bdumTss","burn","damagNahuiNeNuzhen","dcPriest","derzhiVKurse","doubleTilt","feelsBadMan","fufaikaStasa","gloom","gloomChmok","hmm","jirokUprls","kappaPride","kovanich","mirkusha","molodchaga","monkas","neShutiTak","ohueliSovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogChamp","raintru","raintruEbalo","raintruKaef","raintruNeKaef","sadboy","shto","slowPoke","spsBlizzard","wut","zachemObidel","zemlyaPuhom","jason","lovushka","lovushkaJerokera","nePonimayu","ponimayu","sho","oshotikZaebal","rfiend","fiend","know","taktikaGalaktika"},
+     [03]=  {"Сокращения",":bdum:",":dnnn:",":dc:",":dvk:",":dt:",":fbm:",":fs:",":gc:",":ju:",":kp:",":mldg:",":nst:",":os:",":olul:",":pc:",":rnk:",":sps:",":zo:",":rk:",":zp:",":pch:",":re:",":oz:",":jsn:",":lsh:",":lshj:",":npnm:",":pnm:",":tg:"},
 };
   
   
