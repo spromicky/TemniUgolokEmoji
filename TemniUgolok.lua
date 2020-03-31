@@ -162,6 +162,31 @@ Emoticons_Settings={
     ["sho"]="sho",
     ["know"]="know",
     ["taktikaGalaktika"]="taktikaGalaktika",
+    --Filename lowercase
+    ["bdumtss"]="bdumTss",
+    ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
+    ["dcpriest"]="dcPriest",
+    ["derzhivkurse"]="derzhiVKurse",
+    ["doubletilt"]="doubleTilt",
+    ["feelsbadman"]="feelsBadMan",
+    ["fufaikastasa"]="fufaikaStasa",
+    ["gloomchmok"]="gloomChmok",
+    ["jirokuprls"]="jirokUprls",
+    ["kappapride"]="kappaPride",
+    ["neshutitak"]="neShutiTak",
+    ["ohuelisovsem"]="ohueliSovsem",
+    ["pogchamp"]="pogChamp",
+    ["raintruebalo"]="raintruEbalo",
+    ["raintrukaef"]="raintruKaef",
+    ["raintrunekaef"]="raintruNeKaef",
+    ["slowpoke"]="slowPoke",
+    ["spsblizzard"]="spsBlizzard",
+    ["zachemobidel"]="zachemObidel",
+    ["zemlyapuhom"]="zemlyaPuhom",
+    ["jason"]="jason",
+    ["lovushkajerokera"]="lovushkaJerokera",
+    ["neponimayu"]="nePonimayu",
+    ["taktikagalaktika"]="taktikaGalaktika",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -267,7 +292,7 @@ Emoticons_Settings={
   local dropdown_options={
   
      [01]=  {"Discord-style",":bdum_tss:",":bdumtss:",":BURN:",":damag_nahui_ne_nuzhen:",":dc_priest:",":pomoika:",":derzhi_v_kurse:",":double_tilt:",":duble_tilt:",":FeelsBadMan:",":fufaika_stasa:",":gloom:",":gloom_chmok:",":GloomChmok:",":hmm:",":jirok_uprls:",":Kappapride:",":kovanich:",":mirkusha:",":molodchaga:",":monkas:",":ne_shuti_tak:",":ohueli_sovsem:",":olegalul:",":ooooo:",":pepeclown:",":opa:",":raintru_nekaef:",":shto:",":PEPEGA:",":SADBOY:",":slowpoke:",":sps_blizzard:",":zachem_obidel:",":raintru_kaef:",":zemlya_puhom:",":wut:",":PogChamp:",":raintru_ebalo:",":raintru:",":Jason:",":lovushka:",":lovushkaJerokera:",":neponimayu:",":ponimayu:",":sho:",":oshotik_zaebal:",":rfiend:",":fiend:",":known:",":taktika_galaktika:"},
-	 [02]=  {"Названия файла","bdumTss","burn","damagNahuiNeNuzhen","dcPriest","derzhiVKurse","doubleTilt","feelsBadMan","fufaikaStasa","gloom","gloomChmok","hmm","jirokUprls","kappaPride","kovanich","mirkusha","molodchaga","monkas","neShutiTak","ohueliSovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogChamp","raintru","raintruEbalo","raintruKaef","raintruNeKaef","sadboy","shto","slowPoke","spsBlizzard","wut","zachemObidel","zemlyaPuhom","jason","lovushka","lovushkaJerokera","nePonimayu","ponimayu","sho","oshotikZaebal","rfiend","fiend","know","taktikaGalaktika"},
+	 [02]=  {"Названия файла","bdumtss","burn","damagnahuinenuzhen","dcpriest","derzhivkurse","doubletilt","feelsbadman","fufaikastasa","gloom","gloomchmok","hmm","jirokuprls","kappapride","kovanich","mirkusha","molodchaga","monkas","neshutitak","ohuelisovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogchamp","raintru","raintruebalo","raintrukaef","raintrunekaef","sadboy","shto","slowpoke","spsblizzard","wut","zachemobidel","zemlyapuhom","jason","lovushka","lovushkajerokera","neponimayu","ponimayu","sho","oshotikzaebal","rfiend","fiend","know","taktikagalaktika"},
      [03]=  {"Сокращения",":bdum:",":dnnn:",":dc:",":dvk:",":dt:",":fbm:",":fs:",":gc:",":ju:",":kp:",":mldg:",":nst:",":os:",":olul:",":pc:",":rnk:",":sps:",":zo:",":rk:",":zp:",":pch:",":re:",":oz:",":jsn:",":lsh:",":lshj:",":npnm:",":pnm:",":tg:"},
 };
   
