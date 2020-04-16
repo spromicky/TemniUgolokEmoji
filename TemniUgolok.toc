@@ -7,3 +7,4 @@ UIDropDownMenuTemplates.xml
 UIDropDownMenu.lua
 TemniUgolok.lua
 TemniUgolok.xml
+DetailsHack.lua

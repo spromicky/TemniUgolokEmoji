@@ -764,6 +764,22 @@ end
 
 	return msg;
   end
+
+  function TemniUgolok_SetEmojiToDetails(msg)
+    --print(table.getn(words)) ;
+    for k,v in pairs(emoticons) do
+      if (string.find(msg,k,1,true)) then
+        msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:16%:16|t%2");
+        msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."%:16%:16|t");
+        msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."%:16%:16|t%1");
+        msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."%:16%:16|t");
+        msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."%:16%:16|t%2");
+        msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:16%:16|t%2");
+      end
+    end
+
+    return msg;
+  end
   
   function Emoticons_SetType(chattype,state)
 	if(state) then
