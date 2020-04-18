@@ -21,7 +21,6 @@ if _G.NickTag then
                 return false, errortype
             end
             
-            name = TemniUgolok_SetEmojiToDetails(name)
             local playerName = UnitName ("player")
             --> get the full nick table.
             local nickTable = NickTag:GetNicknameTable (playerName)
@@ -51,6 +50,19 @@ if _G.NickTag then
             end
             
             return true
+        end
+      
+        _G._detalhes.GetNickname = function(self, playerName, default, silent)
+            if (not silent) then
+                assert (type (playerName) == "string", "NickTag 'GetNickname' expects a string or string on #1 argument.")
+            end
+            
+            local _table = NickTag:GetNicknameTable (playerName)
+            if (not _table) then
+                return default or nil
+            end
+
+            return TemniUgolok_SetEmojiToDetails(_table[1]) or default or nil
         end
     end
 end
