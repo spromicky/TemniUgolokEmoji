@@ -256,6 +256,7 @@ Emoticons_Settings={
     [":opyat_lokalka:"]="opyatLokalka",
     [":plus_ahatini:"]="plusAhatini",
     [":oshotik_zaebal:"]="oshotikZaebal",
+    [":lgbt:"]="lgbt",
     [":milik:"]="milik",
     [":miliki_nahui_ne_nuzhni:"]="milikiNahuiNenuzhni",
     [":gatil:"]="gatil",
