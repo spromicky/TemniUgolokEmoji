@@ -21,7 +21,8 @@ Emoticons_Settings={
 	["TWITCHBUTTON"]=true,
 	["sliderX"]=-35,
 	["sliderY"]=0,
-    ["iconsSize"]=20,
+    ["chatIconsSize"]=20,
+    ["detailsIconsSize"]=16,
 	["MinimapPos"] = 45,
 	["MINIMAPBUTTON"] = true,
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
@@ -56,7 +57,8 @@ Emoticons_Settings={
 	["TWITCHBUTTON"]=true,
 	["sliderX"]=-35,
 	["sliderY"]=0,
-    ["iconsSize"]=20,
+    ["chatIconsSize"]=20,
+    ["detailsIconsSize"]=16,
 	["MinimapPos"] = 45,
 	["MINIMAPBUTTON"] = true,
 	["FAVEMOTES"] = {true,true,true,true,true,true,true,true,true,true,
@@ -490,8 +492,12 @@ end
 	b:SetPoint("TOPLEFT",Emoticons_Settings["sliderX"],Emoticons_Settings["sliderY"]);
   end
 
-  function Icons_Size_Changed(y)
-    Emoticons_Settings["iconsSize"]=y;
+  function Chat_Icons_Size_Changed(y)
+    Emoticons_Settings["chatIconsSize"]=y;
+  end
+
+  function Details_Icons_Size_Changed(y)
+    Emoticons_Settings["detailsIconsSize"]=y;
   end
   
   function Emoticons_Dropdown_OnClick(self,arg1,arg2,arg3)
@@ -584,8 +590,10 @@ end
 	end
 	SliderXText:SetText("Position X: "..Emoticons_Settings["sliderX"]);
 	SliderYText:SetText("Position Y: "..Emoticons_Settings["sliderY"]);
-    IconsSizeText:SetText("Icons Size: "..Emoticons_Settings["iconsSize"]);
-    IconsSize:SetValue(Emoticons_Settings["iconsSize"])
+    ChatIconsSizeText:SetText("Chat Icons Size: "..Emoticons_Settings["chatIconsSize"]);
+    ChatIconsSize:SetValue(Emoticons_Settings["chatIconsSize"])
+    DetailsIconsSizeText:SetText("Details Icons Size: "..Emoticons_Settings["detailsIconsSize"]);
+    DetailsIconsSize:SetValue(Emoticons_Settings["detailsIconsSize"])
 	--EmoticonsOptionsControlsPanelEyecandy:SetChecked(Emoticons_Eyecandy);
   
 	favall = CreateFrame("CheckButton","favall_GlobalName",EmoticonsOptionsControlsPanel,"UIRadioButtonTemplate" );
@@ -789,12 +797,12 @@ end
     --print(table.getn(words)) ;
     for k,v in pairs(emoticons) do
       if (string.find(msg,k,1,true)) then
-        msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:16%:16|t%2");
-        msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."%:16%:16|t");
-        msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."%:16%:16|t%1");
-        msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."%:16%:16|t");
-        msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."%:16%:16|t%2");
-        msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:16%:16|t%2");
+        msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["detailsIconsSize"].."%:"..Emoticons_Settings["detailsIconsSize"].."|t%2");
+        msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["detailsIconsSize"].."%:"..Emoticons_Settings["detailsIconsSize"].."|t");
+        msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."%:"..Emoticons_Settings["detailsIconsSize"].."%:"..Emoticons_Settings["detailsIconsSize"].."|t%1");
+        msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."%:"..Emoticons_Settings["detailsIconsSize"].."%:"..Emoticons_Settings["detailsIconsSize"].."|t");
+        msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["detailsIconsSize"].."%:"..Emoticons_Settings["detailsIconsSize"].."|t%2");
+        msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["detailsIconsSize"].."%:"..Emoticons_Settings["detailsIconsSize"].."|t%2");
       end
     end
 

@@ -317,7 +317,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 					</OnClick>
 				</Scripts>
 			</CheckButton>
-			<Slider name="IconsSize" minValue="16" maxValue="32" valueStep="1" defaultvalue="20"  inherits="PowaBarSliderTemplate">
+			<Slider name="ChatIconsSize" minValue="16" maxValue="32" valueStep="1" defaultvalue="20"  inherits="PowaBarSliderTemplate">
 				<Size>
 					<AbsDimension x="280" y="16" />
 				</Size>
@@ -331,17 +331,37 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 				</Anchors>
 				<Scripts> 
 					<OnLoad>
-						IconsSizeText:SetText("Icons Size: "..self:GetValue());
-						IconsSizeLow:SetText("16"); 
-						IconsSizeHigh:SetText("32");
+						ChatIconsSizeText:SetText("Chat Icons Size: "..self:GetValue());
+						ChatIconsSizeLow:SetText("16"); 
+						ChatIconsSizeHigh:SetText("32");
 					</OnLoad>
-					<OnValueChanged>Icons_Size_Changed(self:GetValue());IconsSizeText:SetText("Icons Size: "..self:GetValue());</OnValueChanged>
+					<OnValueChanged>Chat_Icons_Size_Changed(self:GetValue());ChatIconsSizeText:SetText("Chat Icons Size: "..self:GetValue());</OnValueChanged>
 				</Scripts>
 			</Slider>
-
+			<Slider name="DetailsIconsSize" minValue="10" maxValue="26" valueStep="1" defaultvalue="16"  inherits="PowaBarSliderTemplate">
+				<Size>
+					<AbsDimension x="280" y="16" />
+				</Size>
+				<Anchors>
+					<Anchor point="TOPLEFT" relativeTo="ChatIconsSize" relativePoint="TOPRIGHT">
+						<Offset>
+							<AbsDimension x="10" y="0"/>
+						</Offset>
+						<Offset/>
+					</Anchor>
+				</Anchors>
+				<Scripts> 
+					<OnLoad>
+						DetailsIconsSizeText:SetText("Details Icons Size: "..self:GetValue());
+						DetailsIconsSizeLow:SetText("10"); 
+						DetailsIconsSizeHigh:SetText("26");
+					</OnLoad>
+					<OnValueChanged>Details_Icons_Size_Changed(self:GetValue());DetailsIconsSizeText:SetText("Details Icons Size: "..self:GetValue());</OnValueChanged>
+				</Scripts>
+			</Slider>
 			<Frame name="$ChatFrameChannelButton">
 				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="IconsSize" relativePoint="BOTTOMLEFT">
+					<Anchor point="TOPLEFT" relativeTo="ChatIconsSize" relativePoint="BOTTOMLEFT">
 						<Offset>
 							<AbsDimension x="0" y="-24"/>
 						</Offset>
@@ -400,7 +420,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 			</Frame>
 			<CheckButton name="$parentTWITCHBUTTON" inherits="ChatConfigCheckButtonTemplate">
 				<Anchors>
-					<Anchor point="TOPLEFT" relativeTo="IconsSize" relativePoint="BOTTOMLEFT">
+					<Anchor point="TOPLEFT" relativeTo="ChatIconsSize" relativePoint="BOTTOMLEFT">
 						<Offset>
 							<AbsDimension x="0" y="-38"/>
 						</Offset>
