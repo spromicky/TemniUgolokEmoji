@@ -262,7 +262,7 @@ Emoticons_Settings={
     [":milik:"]="milik",
     [":miliki_nahui_ne_nuzhni:"]="milikiNahuiNenuzhni",
     [":gatil:"]="gatil",
-    [":melanh:"]="melanh"
+    [":melanh:"]="melanh",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
