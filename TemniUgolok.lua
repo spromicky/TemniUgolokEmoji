@@ -128,6 +128,7 @@ Emoticons_Settings={
     ["igraGovna"]="Interface\\AddOns\\TemniUgolok\\resources\\igraGovna.tga",
     ["dushniUgolok"]="Interface\\AddOns\\TemniUgolok\\resources\\dushniUgolok.tga",
     ["nzoth"]="Interface\\AddOns\\TemniUgolok\\resources\\nzoth.tga",
+    ["5head"]="Interface\\AddOns\\TemniUgolok\\resources\\5head.tga",
   };
   local emoticons={
     --Filename
@@ -185,6 +186,7 @@ Emoticons_Settings={
     ["igraGovna"]="igraGovna",
     ["dushniUgolok"]="dushniUgolok",
     ["nzoth"]="nzoth",
+    ["5head"]="5head",
     --Filename lowercase
     ["bdumtss"]="bdumTss",
     ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
@@ -277,6 +279,7 @@ Emoticons_Settings={
     [":igra_govna:"]="igraGovna",
     [":dushni_ugolok:"]="dushniUgolok",
     [":nzoth:"]="nzoth",
+    [":5head:"]="5head",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -351,8 +354,8 @@ Emoticons_Settings={
   };
   local dropdown_options={
   
-     [01]=  {"Discord-style",":bdum_tss:",":bdumtss:",":BURN:",":damag_nahui_ne_nuzhen:",":dc_priest:",":pomoika:",":derzhi_v_kurse:",":double_tilt:",":duble_tilt:",":FeelsBadMan:",":fufaika_stasa:",":gloom:",":gloom_chmok:",":GloomChmok:",":hmm:",":jirok_uprls:",":Kappapride:",":kovanich:",":mirkusha:",":molodchaga:",":monkas:",":ne_shuti_tak:",":ohueli_sovsem:",":olegalul:",":ooooo:",":pepeclown:",":opa:",":raintru_nekaef:",":shto:",":PEPEGA:",":SADBOY:",":slowpoke:",":sps_blizzard:",":zachem_obidel:",":raintru_kaef:",":zemlya_puhom:",":wut:",":PogChamp:",":raintru_ebalo:",":raintru:",":Jason:",":lovushka:",":lovushkaJerokera:",":neponimayu:",":ponimayu:",":sho:",":oshotik_zaebal:",":rfiend:",":fiend:",":known:",":taktika_galaktika:",":opyat_lokalka:",":plus_ahatini:",":milik:",":miliki_nahui_ne_nuzhni:",":gatil:",":melanh:",":igra_govna:",":dushni_ugolok:"},
-	 [02]=  {"Названия файла","bdumtss","burn","damagnahuinenuzhen","dcpriest","derzhivkurse","doubletilt","feelsbadman","fufaikastasa","gloom","gloomchmok","hmm","jirokuprls","kappapride","kovanich","mirkusha","molodchaga","monkas","neshutitak","ohuelisovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogchamp","raintru","raintruebalo","raintrukaef","raintrunekaef","sadboy","shto","slowpoke","spsblizzard","wut","zachemobidel","zemlyapuhom","jason","lovushka","lovushkajerokera","neponimayu","ponimayu","sho","oshotikzaebal","rfiend","fiend","know","taktikagalaktika","opyatlokalka","plusahatini","lgbt","milik","milikinahuinenuzhni","gatil","melanh","igragovna","dushniugolok"},
+     [01]=  {"Discord-style",":bdum_tss:",":bdumtss:",":BURN:",":damag_nahui_ne_nuzhen:",":dc_priest:",":pomoika:",":derzhi_v_kurse:",":double_tilt:",":duble_tilt:",":FeelsBadMan:",":fufaika_stasa:",":gloom:",":gloom_chmok:",":GloomChmok:",":hmm:",":jirok_uprls:",":Kappapride:",":kovanich:",":mirkusha:",":molodchaga:",":monkas:",":ne_shuti_tak:",":ohueli_sovsem:",":olegalul:",":ooooo:",":pepeclown:",":opa:",":raintru_nekaef:",":shto:",":PEPEGA:",":SADBOY:",":slowpoke:",":sps_blizzard:",":zachem_obidel:",":raintru_kaef:",":zemlya_puhom:",":wut:",":PogChamp:",":raintru_ebalo:",":raintru:",":Jason:",":lovushka:",":lovushkaJerokera:",":neponimayu:",":ponimayu:",":sho:",":oshotik_zaebal:",":rfiend:",":fiend:",":known:",":taktika_galaktika:",":opyat_lokalka:",":plus_ahatini:",":milik:",":miliki_nahui_ne_nuzhni:",":gatil:",":melanh:",":igra_govna:",":dushni_ugolok:",":5head:"},
+	 [02]=  {"Названия файла","bdumtss","burn","damagnahuinenuzhen","dcpriest","derzhivkurse","doubletilt","feelsbadman","fufaikastasa","gloom","gloomchmok","hmm","jirokuprls","kappapride","kovanich","mirkusha","molodchaga","monkas","neshutitak","ohuelisovsem","olegalul","ooooooo","opa","pepeclown","pepega","pogchamp","raintru","raintruebalo","raintrukaef","raintrunekaef","sadboy","shto","slowpoke","spsblizzard","wut","zachemobidel","zemlyapuhom","jason","lovushka","lovushkajerokera","neponimayu","ponimayu","sho","oshotikzaebal","rfiend","fiend","know","taktikagalaktika","opyatlokalka","plusahatini","lgbt","milik","milikinahuinenuzhni","gatil","melanh","igragovna","dushniugolok","5head"},
      [03]=  {"Сокращения",":bdum:",":dnnn:",":dc:",":dvk:",":dt:",":fbm:",":fs:",":gc:",":ju:",":kp:",":mldg:",":nst:",":os:",":olul:",":pc:",":rnk:",":sps:",":zo:",":rk:",":zp:",":pch:",":re:",":oz:",":jsn:",":lsh:",":lshj:",":npnm:",":pnm:",":tg:",":op:",":pa:",":mnnn:",":ig:",":du:"},
 };
   
