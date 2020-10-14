@@ -1,7 +1,7 @@
-## Interface: 80300
+## Interface: 90001
 ## Title: Тёмный Уголок Emoji
 ## Author: Тоенак
-## Version: v1
+## Version: 1.5.5
 ## SavedVariablesPerCharacter: Emoticons_Settings Emoticons_Eyecandy
 UIDropDownMenuTemplates.xml
 UIDropDownMenu.lua
