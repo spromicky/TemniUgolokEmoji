@@ -128,6 +128,10 @@ Emoticons_Settings={
     ["dushniUgolok"]="Interface\\AddOns\\TemniUgolok\\resources\\dushniUgolok.tga",
     ["nzoth"]="Interface\\AddOns\\TemniUgolok\\resources\\nzoth.tga",
     ["5head"]="Interface\\AddOns\\TemniUgolok\\resources\\5head.tga",
+    ["2head"]="Interface\\AddOns\\TemniUgolok\\resources\\2head.tga",
+    ["lya"]="Interface\\AddOns\\TemniUgolok\\resources\\lya.tga",
+    ["iniciativnost"]="Interface\\AddOns\\TemniUgolok\\resources\\iniciativnost.tga",
+    ["kekw"]="Interface\\AddOns\\TemniUgolok\\resources\\kekw.tga",
   };
   local emoticons={
     --Filename
@@ -188,6 +192,10 @@ Emoticons_Settings={
     ["fiend"]="fiend",
     ["lfiend"]="fiend",
     ["rfiend"]="rfiend",
+    ["2head"]="2head",
+    ["lya"]="lya",
+    ["iniciativnost"]="iniciativnost",
+    ["kekw"]="kekw",
     --Filename lowercase
     ["bdumtss"]="bdumTss",
     ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
@@ -279,6 +287,10 @@ Emoticons_Settings={
     [":fiend:"]="fiend",
     [":lfiend:"]="fiend",
     [":rfiend:"]="rfiend",
+    [":2head:"]="2head",
+    [":lya:"]="lya",
+    [":iniciativnost:"]="iniciativnost",
+    [":kekw:"]="kekw",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -312,6 +324,7 @@ Emoticons_Settings={
     [":pa:"]="plusAhatini",
     [":mnnn:"]="milikiNahuiNenuzhni",
     [":du:"]="dushniUgolok",
+    [":ini:"]="iniciativnost",
     --------------------------------------
     --hidden
     --------------------------------------
@@ -383,6 +396,7 @@ Emoticons_Settings={
             ":pepeclown:",
             ":monkas:",
             --
+            ":lya:",
             ":opa:",
             ":neponimayu:",
             ":ponimayu:",
@@ -393,12 +407,14 @@ Emoticons_Settings={
             ":hmm:",
             ":zachem_obidel:",
             ":5head:",
+            ":2head:",
             ":mirkusha:",
             --misc
             ":derzhi_v_kurse:",
             ":duble_tilt:",
             ":sps_blizzard:",
             ":zemlya_puhom:",
+            ":kekw:",
             ":PogChamp:",
             ":Kappapride:",
             ":Jason:",
@@ -408,7 +424,8 @@ Emoticons_Settings={
             ":damag_nahui_ne_nuzhen:",
             ":milik:",
             ":miliki_nahui_ne_nuzhni:",
-            ":dushni_ugolok:"},
+            ":dushni_ugolok:",
+            ":iniciativnost:"},
      [03]= {"Названия файла old",
             "bdumtss",
             "burn",
@@ -445,6 +462,7 @@ Emoticons_Settings={
             "pepeclown",
             "monkas",
             --
+            "lya",
             "opa",
             "ponimayu",
             "neponimayu",
@@ -455,12 +473,14 @@ Emoticons_Settings={
             "hmm",
             "zachemobidel",
             "5head",
+            "2head",
             "mirkusha",
             --misc
             "derzhivkurse",
             "doubletilt",
             "spsblizzard",
             "zemlyapuhom",
+            "kekw",
             "pogchamp",
             "kappapride",
             "jason",
@@ -471,7 +491,7 @@ Emoticons_Settings={
             "milik",
             "milikinahuinenuzhni",
             "dushniugolok",
-            "lgbt"},
+            "iniciativnost"},
      [05]= {"Сокращения",
             ":bdum:",
             ":fs:",
@@ -510,7 +530,8 @@ Emoticons_Settings={
             ":pa:",
             ":dnnn:",
             ":mnnn:",
-            ":du:"}
+            ":du:",
+            ":ini:"}
 };
   
   
