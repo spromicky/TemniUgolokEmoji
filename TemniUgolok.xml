@@ -4,24 +4,16 @@
 		<!-- Copied from OptionSliderTemplate 2.4.3 because Blizzard is ......
 Check to see if they use consistent fontsizes in build > 8982 and remove this template.
 Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed as well.  -->
-  <Slider name="OptionsSmallSliderTemplate" orientation="HORIZONTAL" virtual="true" enableMouse="true">
+  <Slider name="OptionsSmallSliderTemplate" orientation="HORIZONTAL" virtual="true" enableMouse="true" inherits="BackdropTemplate">
 		<Size>
 			<AbsDimension x="144" y="17"/>
 		</Size>
 		<HitRectInsets>
 			<AbsInset left="0" right="0" top="-10" bottom="-10"/>
 		</HitRectInsets>
-		<Backdrop bgFile="Interface\Buttons\UI-SliderBar-Background" edgeFile="Interface\Buttons\UI-SliderBar-Border" tile="true">
-			<EdgeSize>
-				<AbsValue val="8"/>
-			</EdgeSize>
-			<TileSize>
-				<AbsValue val="8"/>
-			</TileSize>
-			<BackgroundInsets>
-				<AbsInset left="3" right="3" top="6" bottom="6"/>
-			</BackgroundInsets>
-		</Backdrop>
+		<KeyValues>
+	        <KeyValue key="backdropInfo" value="BACKDROP_SLIDER_8_8" type="global"/>
+	    </KeyValues>
 		<Layers>
 			<Layer level="ARTWORK">
 				<FontString name="$parentText" inherits="GameFontNormalSmall">
@@ -58,7 +50,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 				<AbsDimension x="32" y="32"/>
 			</Size>
 		</ThumbTexture>
-	</Slider>
+  </Slider>
 	
   <Slider name="PowaBarSliderTemplate"
           inherits="OptionsSmallSliderTemplate"
@@ -331,6 +323,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 				</Anchors>
 				<Scripts> 
 					<OnLoad>
+						self:OnBackdropLoaded();
 						ChatIconsSizeText:SetText("Chat Icons Size: "..self:GetValue());
 						ChatIconsSizeLow:SetText("16"); 
 						ChatIconsSizeHigh:SetText("32");
@@ -352,6 +345,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 				</Anchors>
 				<Scripts> 
 					<OnLoad>
+						self:OnBackdropLoaded();
 						DetailsIconsSizeText:SetText("Details Icons Size: "..self:GetValue());
 						DetailsIconsSizeLow:SetText("10"); 
 						DetailsIconsSizeHigh:SetText("26");
@@ -451,6 +445,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 				</Anchors>
 				<Scripts> 
 					<OnLoad>
+						self:OnBackdropLoaded();
 						SliderXText:SetText("Position X: "..self:GetValue());
 						SliderXLow:SetText("-1000"); 
 						SliderXHigh:SetText("1000");
@@ -473,6 +468,7 @@ Revert PowaBarSliderTemplate to inherit from OptionsSliderTemplate if it's fixed
 				</Anchors>
 				<Scripts> 
 					<OnLoad>
+						self:OnBackdropLoaded();
 						SliderYText:SetText("Position Y: "..self:GetValue());
 						SliderYLow:SetText("-1000"); 
 						SliderYHigh:SetText("1000");

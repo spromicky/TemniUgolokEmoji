@@ -665,7 +665,7 @@ end
 	end
 	);
   
-	favframe = CreateFrame("Frame", "favframe_GlobalName", favall_GlobalName);
+	favframe = CreateFrame("Frame", "favframe_GlobalName", favall_GlobalName, BackdropTemplateMixin and "BackdropTemplate");
 	favframe:SetPoint("TOPLEFT", 0,-24);
 	favframe:SetSize(590,125);
   
