@@ -132,6 +132,10 @@ Emoticons_Settings={
     ["lya"]="Interface\\AddOns\\TemniUgolok\\resources\\lya.tga",
     ["iniciativnost"]="Interface\\AddOns\\TemniUgolok\\resources\\iniciativnost.tga",
     ["kekw"]="Interface\\AddOns\\TemniUgolok\\resources\\kekw.tga",
+    ["kyrian"]="Interface\\AddOns\\TemniUgolok\\resources\\kyrian.tga",
+    ["necrolord"]="Interface\\AddOns\\TemniUgolok\\resources\\necrolord.tga",
+    ["nightFae"]="Interface\\AddOns\\TemniUgolok\\resources\\night_fae.tga",
+    ["venthyr"]="Interface\\AddOns\\TemniUgolok\\resources\\venthyr.tga",
   };
   local emoticons={
     --Filename
@@ -196,6 +200,10 @@ Emoticons_Settings={
     ["lya"]="lya",
     ["iniciativnost"]="iniciativnost",
     ["kekw"]="kekw",
+    ["kyrian"]="kyrian",
+    ["necrolord"]="necrolord",
+    ["nightFae"]="nightFae",
+    ["venthyr"]="venthyr",
     --Filename lowercase
     ["bdumtss"]="bdumTss",
     ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
@@ -225,6 +233,7 @@ Emoticons_Settings={
     ["oshotikzaebal"]="oshotikZaebal",
     ["milikinahuinenuzhni"]="milikiNahuiNenuzhni",
     ["dushniugolok"]="dushniUgolok",
+    ["nightfae"]="nightFae",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -291,6 +300,10 @@ Emoticons_Settings={
     [":lya:"]="lya",
     [":iniciativnost:"]="iniciativnost",
     [":kekw:"]="kekw",
+    [":kyrian:"]="kyrian",
+    [":necrolord:"]="necrolord",
+    [":nightFae:"]="nightFae",
+    [":venthyr:"]="venthyr",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -325,6 +338,10 @@ Emoticons_Settings={
     [":mnnn:"]="milikiNahuiNenuzhni",
     [":du:"]="dushniUgolok",
     [":ini:"]="iniciativnost",
+    [":kr:"]="kyrian",
+    [":nl:"]="necrolord",
+    [":nf:"]="nightFae",
+    [":vr:"]="venthyr",
     --------------------------------------
     --hidden
     --------------------------------------
@@ -531,7 +548,16 @@ Emoticons_Settings={
             ":dnnn:",
             ":mnnn:",
             ":du:",
-            ":ini:"}
+            ":ini:"},
+     [06]= {"Ковенанты",
+            "kyrian",
+            "necrolord",
+            "nightfae",
+            "venthyr",
+            ":kr:",
+            ":nl:",
+            ":nf:",
+            ":vr:"}
 };
   
   
