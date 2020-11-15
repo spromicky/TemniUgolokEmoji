@@ -340,21 +340,6 @@ Emoticons_Settings={
     --------------------------------------
     --hidden
     --------------------------------------
-    [".!."]="arms",
-    ["hui"]="arms",
-    ["xui"]="arms",
-    ["xyi"]="arms",
-    ["hyi"]="arms",
-    [":hui:"]="arms",
-    [":xui:"]="arms",
-    [":xyi:"]="arms",
-    [":hyi:"]="arms",
-    ["pinus"]="sheal",
-    ["pinos"]="sheal",
-    ["penis"]="sheal",
-    [":pinus:"]="sheal",
-    [":pinos:"]="sheal",
-    [":penis:"]="sheal",
     ["warCry"]="warCry",
     ["warcry"]="warCry",
     [":warcry:"]="warCry",
