@@ -269,6 +269,7 @@ Emoticons_Settings={
     [":miliki_nahui_ne_nuzhni:"]="milikiNahuiNenuzhni",
     [":gatil:"]="gatil",
     [":melanh:"]="melanh",
+    [":wipe:"]="wipe",
     [":dushni_ugolok:"]="dushniUgolok",
     [":5head:"]="5head",
     [":hyena:"]="hyena"
