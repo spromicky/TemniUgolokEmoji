@@ -104,7 +104,7 @@ Emoticons_Settings={
 	["zemlyaPuhom"]="Interface\\AddOns\\TemniUgolok\\resources\\zemlyaPuhom.tga",
     ["fiend"]="Interface\\AddOns\\TemniUgolok\\resources\\fiend.tga",
     ["rfiend"]="Interface\\AddOns\\TemniUgolok\\resources\\rfiend.tga",
-    ["oshotikZaebal"]="Interface\\AddOns\\TemniUgolok\\resources\\oshotikZaebal.tga",
+    ["wipe"]="Interface\\AddOns\\TemniUgolok\\resources\\oshotikZaebal.tga",
     ["jason"]="Interface\\AddOns\\TemniUgolok\\resources\\jason.tga",
     ["lovushkaJerokera"]="Interface\\AddOns\\TemniUgolok\\resources\\lovushkaJerokera.tga",
     ["nePonimayu"]="Interface\\AddOns\\TemniUgolok\\resources\\nePonimayu.tga",
@@ -176,7 +176,7 @@ Emoticons_Settings={
     ["know"]="know",
     ["taktikaGalaktika"]="taktikaGalaktika",
     ["opyatLokalka"]="opyatLokalka",
-    ["oshotikZaebal"]="oshotikZaebal",
+    ["wipe"]="wipe",
     ["milik"]="milik",
     ["milikiNahuiNenuzhni"]="milikiNahuiNenuzhni",
     ["gatil"]="gatil",
@@ -218,7 +218,6 @@ Emoticons_Settings={
     ["neponimayu"]="nePonimayu",
     ["taktikagalaktika"]="taktikaGalaktika",
     ["opyatlokalka"]="opyatLokalka",
-    ["oshotikzaebal"]="oshotikZaebal",
     ["milikinahuinenuzhni"]="milikiNahuiNenuzhni",
     ["dushniugolok"]="dushniUgolok",
     ["nightfae"]="nightFae",
@@ -268,7 +267,6 @@ Emoticons_Settings={
     [":known:"]="know",
     [":taktika_galaktika:"]="taktikaGalaktika",
     [":opyat_lokalka:"]="opyatLokalka",
-    [":oshotik_zaebal:"]="oshotikZaebal",
     [":lgbt:"]="lgbt",
     [":milik:"]="milik",
     [":miliki_nahui_ne_nuzhni:"]="milikiNahuiNenuzhni",
@@ -308,7 +306,6 @@ Emoticons_Settings={
 	[":zp:"]="zemlyaPuhom",
 	[":pch:"]="pogChamp",
 	[":re:"]="raintruEbalo",
-    [":oz:"]="oshotikZaebal",
     [":jsn:"]="jason",
     [":lshj:"]="lovushkaJerokera",
     [":npnm:"]="nePonimayu",
@@ -503,9 +500,7 @@ Emoticons_Settings={
             ":ponimayu:",
             "ponimayu",
             ":pnm:",
-            ":oshotik_zaebal:",
-            "oshotikzaebal",
-            ":oz:"}
+            "wipe"}
 };
   
   
