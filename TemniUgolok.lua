@@ -106,7 +106,6 @@ Emoticons_Settings={
     ["rfiend"]="Interface\\AddOns\\TemniUgolok\\resources\\rfiend.tga",
     ["oshotikZaebal"]="Interface\\AddOns\\TemniUgolok\\resources\\oshotikZaebal.tga",
     ["jason"]="Interface\\AddOns\\TemniUgolok\\resources\\jason.tga",
-    ["lovushka"]="Interface\\AddOns\\TemniUgolok\\resources\\lovushka.tga",
     ["lovushkaJerokera"]="Interface\\AddOns\\TemniUgolok\\resources\\lovushkaJerokera.tga",
     ["nePonimayu"]="Interface\\AddOns\\TemniUgolok\\resources\\nePonimayu.tga",
     ["ponimayu"]="Interface\\AddOns\\TemniUgolok\\resources\\ponimayu.tga",
@@ -172,7 +171,6 @@ Emoticons_Settings={
 	["zachemObidel"]="zachemObidel",
 	["zemlyaPuhom"]="zemlyaPuhom",
     ["jason"]="jason",
-    ["lovushka"]="lovushka",
     ["lovushkaJerokera"]="lovushkaJerokera",
     ["nePonimayu"]="nePonimayu",
     ["ponimayu"]="ponimayu",
@@ -268,7 +266,6 @@ Emoticons_Settings={
 	[":raintru_ebalo:"]="raintruEbalo",
 	[":raintru:"]="raintru",
     [":Jason:"]="jason",
-    [":lovushka:"]="lovushka",
     [":lovushkaJerokera:"]="lovushkaJerokera",
     [":neponimayu:"]="nePonimayu",
     [":ponimayu:"]="ponimayu",
@@ -320,7 +317,6 @@ Emoticons_Settings={
 	[":re:"]="raintruEbalo",
     [":oz:"]="oshotikZaebal",
     [":jsn:"]="jason",
-    [":lsh:"]="lovushka",
     [":lshj:"]="lovushkaJerokera",
     [":npnm:"]="nePonimayu",
     [":pnm:"]="ponimayu",
@@ -376,7 +372,6 @@ Emoticons_Settings={
             ":rfiend:",
             ":lfiend:",
             ":jirok_uprls:",
-            ":lovushka:",
             ":lovushkaJerokera:",
             --
             ":raintru_ebalo:",
@@ -421,7 +416,6 @@ Emoticons_Settings={
             "lfiend",
             "rfiend",
             "jirokuprls",
-            "lovushka",
             "lovushkajerokera",
             --
             "raintruebalo",
@@ -451,7 +445,6 @@ Emoticons_Settings={
             ":mldg:",
             --
             ":ju:",
-            ":lsh:",
             ":lshj:",
             --
             ":re:",
