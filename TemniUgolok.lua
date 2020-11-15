@@ -877,12 +877,12 @@ end
   	--print(table.getn(words)) ;
 	for k,v in pairs(emoticons) do
 	  if (string.find(msg,k,1,true)) then
-		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%2");
-		msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t");
-		msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%1");
-		msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t");
-		msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%2");
-		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["iconsSize"].."%:"..Emoticons_Settings["iconsSize"].."|t%2");
+		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["chatIconsSize"].."%:"..Emoticons_Settings["chatIconsSize"].."|t%2");
+		msg = string.gsub(msg,"(%s)"..k.."$","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["chatIconsSize"].."%:"..Emoticons_Settings["chatIconsSize"].."|t");
+		msg = string.gsub(msg,"^"..k.."(%s)","|T"..defaultpack[v].."%:"..Emoticons_Settings["chatIconsSize"].."%:"..Emoticons_Settings["chatIconsSize"].."|t%1");
+		msg = string.gsub(msg,"^"..k.."$","|T"..defaultpack[v].."%:"..Emoticons_Settings["chatIconsSize"].."%:"..Emoticons_Settings["chatIconsSize"].."|t");
+		msg = string.gsub(msg,"(%s)"..k.."(%c)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["chatIconsSize"].."%:"..Emoticons_Settings["chatIconsSize"].."|t%2");
+		msg = string.gsub(msg,"(%s)"..k.."(%s)","%1|T"..defaultpack[v].."%:"..Emoticons_Settings["chatIconsSize"].."%:"..Emoticons_Settings["chatIconsSize"].."|t%2");
 	  end
 	end
 
