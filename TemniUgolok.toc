@@ -2,7 +2,7 @@
 ## Title: Тёмный Уголок Emoji
 ## Notes: Эмоджи из дискорда гильдии Тёмный Уголок
 ## Author: Тоенак
-## Version: 1.6.4
+## Version: 1.6.5
 ## SavedVariablesPerCharacter: Emoticons_Settings Emoticons_Eyecandy
 UIDropDownMenuTemplates.xml
 UIDropDownMenu.lua
