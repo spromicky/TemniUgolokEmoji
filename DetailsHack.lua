@@ -1,11 +1,15 @@
 if _G.NickTag then
+    function trim(s)
+       return s:match( "^%s*(.-)%s*$" )
+    end
+
     _G.NickTag.CheckName = function(name)
         name = tostring(name)
         if (type (name) ~= "string") then  
             return false, LibStub ("AceLocale-3.0"):GetLocale ("NickTag-1.0")["STRING_ERROR_4"] --> error 4 = name isn't a valid string
         end
         
-        name = trim (name)
+        name = trim(name)
         return true
     end
 
