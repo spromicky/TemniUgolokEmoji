@@ -130,6 +130,7 @@ Emoticons_Settings={
     ["necrolord"]="Interface\\AddOns\\TemniUgolok\\resources\\necrolord.tga",
     ["nightFae"]="Interface\\AddOns\\TemniUgolok\\resources\\night_fae.tga",
     ["venthyr"]="Interface\\AddOns\\TemniUgolok\\resources\\venthyr.tga",
+    ["etoKill"]="Interface\\AddOns\\TemniUgolok\\resources\\etoKill.tga",
   };
   local emoticons={
     --Filename
@@ -191,6 +192,7 @@ Emoticons_Settings={
     ["necrolord"]="necrolord",
     ["nightFae"]="nightFae",
     ["venthyr"]="venthyr",
+    ["etoKill"]="etoKill",
     --Filename lowercase
     ["bdumtss"]="bdumTss",
     ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
@@ -218,6 +220,7 @@ Emoticons_Settings={
     ["milikinahuinenuzhni"]="milikiNahuiNenuzhni",
     ["dushniugolok"]="dushniUgolok",
     ["nightfae"]="nightFae",
+    ["etokill"]="etoKill",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -281,6 +284,7 @@ Emoticons_Settings={
     [":necrolord:"]="necrolord",
     [":nightFae:"]="nightFae",
     [":venthyr:"]="venthyr",
+    [":eto_kill:"]="etoKill",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -315,6 +319,7 @@ Emoticons_Settings={
     [":nl:"]="necrolord",
     [":nf:"]="nightFae",
     [":vr:"]="venthyr",
+    [":ek:"]="etoKill",
     --------------------------------------
     --hidden
     --------------------------------------
@@ -389,7 +394,9 @@ Emoticons_Settings={
             "dushniugolok",
             ":du:",
             "iniciativnost",
-            ":ini:"},
+            ":ini:",
+            "etokill",
+            ":ek:"},
      [04]= {"Олего-смайлы",
             "ohuelisovsem",
             ":os:",
