@@ -1,8 +1,8 @@
-## Interface: 90005
+## Interface: 90100
 ## Title: Тёмный Уголок Emoji
 ## Notes: Эмоджи из дискорда гильдии Тёмный Уголок
 ## Author: Тоенак
-## Version: 1.6.8
+## Version: 1.6.9
 ## SavedVariablesPerCharacter: Emoticons_Settings Emoticons_Eyecandy
 UIDropDownMenuTemplates.xml
 UIDropDownMenu.lua
