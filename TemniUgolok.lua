@@ -132,6 +132,8 @@ Emoticons_Settings={
     ["venthyr"]="Interface\\AddOns\\TemniUgolok\\resources\\venthyr.tga",
     ["etoKill"]="Interface\\AddOns\\TemniUgolok\\resources\\etoKill.tga",
     ["etoNeKill"]="Interface\\AddOns\\TemniUgolok\\resources\\etoNeKill.tga",
+    ["cel"]="Interface\\AddOns\\TemniUgolok\\resources\\cel.tga",
+    ["olegaKek"]="Interface\\AddOns\\TemniUgolok\\resources\\olegaKek.tga",
   };
   local emoticons={
     --Filename
@@ -195,6 +197,7 @@ Emoticons_Settings={
     ["venthyr"]="venthyr",
     ["etoKill"]="etoKill",
     ["etoNeKill"]="etoNeKill",
+    ["olegaKek"]="olegaKek",
     --Filename lowercase
     ["bdumtss"]="bdumTss",
     ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
@@ -224,6 +227,7 @@ Emoticons_Settings={
     ["nightfae"]="nightFae",
     ["etokill"]="etoKill",
     ["etonekill"]="etoNeKill",
+    ["olegakek"]="olegakek",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -289,6 +293,7 @@ Emoticons_Settings={
     [":venthyr:"]="venthyr",
     [":eto_kill:"]="etoKill",
     [":eto_ne_kill:"]="etoNeKill",
+    [":olega_kek:"]="olegaKek",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -325,6 +330,7 @@ Emoticons_Settings={
     [":vr:"]="venthyr",
     [":ek:"]="etoKill",
     [":enk:"]="etoNeKill",
+    [":okek:"]="olegaKek",
     --------------------------------------
     --hidden
     --------------------------------------
@@ -342,6 +348,7 @@ Emoticons_Settings={
     ["пидорас"]="lgbt",
     ["педик"]="lgbt",
     ["пидр"]="lgbt",
+    [":cel:"]="cel",
   };
   local dropdown_options={
   
@@ -409,6 +416,8 @@ Emoticons_Settings={
             ":os:",
             "olegalul",
             ":olul:",
+            "olegaKek",
+            ":okek:",
             "hmm",
             "zachemobidel",
             ":zo:",
