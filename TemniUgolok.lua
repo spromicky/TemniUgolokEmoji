@@ -227,7 +227,7 @@ Emoticons_Settings={
     ["nightfae"]="nightFae",
     ["etokill"]="etoKill",
     ["etonekill"]="etoNeKill",
-    ["olegakek"]="olegakek",
+    ["olegakek"]="olegaKek",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -416,7 +416,7 @@ Emoticons_Settings={
             ":os:",
             "olegalul",
             ":olul:",
-            "olegaKek",
+            "olegakek",
             ":okek:",
             "hmm",
             "zachemobidel",
