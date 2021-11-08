@@ -134,6 +134,10 @@ Emoticons_Settings={
     ["etoNeKill"]="Interface\\AddOns\\TemniUgolok\\resources\\etoNeKill.tga",
     ["cel"]="Interface\\AddOns\\TemniUgolok\\resources\\cel.tga",
     ["olegaKek"]="Interface\\AddOns\\TemniUgolok\\resources\\olegaKek.tga",
+    ["iziOsvoenie"]="Interface\\AddOns\\TemniUgolok\\resources\\iziOsvoenie.tga",
+    ["kenona"]="Interface\\AddOns\\TemniUgolok\\resources\\kenona.tga",
+    ["masque"]="Interface\\AddOns\\TemniUgolok\\resources\\masque.tga",
+    ["pepelE"]="Interface\\AddOns\\TemniUgolok\\resources\\pepelE.tga",
   };
   local emoticons={
     --Filename
@@ -171,7 +175,6 @@ Emoticons_Settings={
 	["wut"]="wut",
 	["zachemObidel"]="zachemObidel",
 	["zemlyaPuhom"]="zemlyaPuhom",
-    ["jason"]="jason",
     ["lovushkaJerokera"]="lovushkaJerokera",
     ["nePonimayu"]="nePonimayu",
     ["ponimayu"]="ponimayu",
@@ -198,6 +201,8 @@ Emoticons_Settings={
     ["etoKill"]="etoKill",
     ["etoNeKill"]="etoNeKill",
     ["olegaKek"]="olegaKek",
+    ["iziOsvoenie"]="iziOsvoenie",
+    ["pepelE"]="pepelE",
     --Filename lowercase
     ["bdumtss"]="bdumTss",
     ["damagnahuinenuzhen"]="damagNahuiNeNuzhen",
@@ -228,6 +233,11 @@ Emoticons_Settings={
     ["etokill"]="etoKill",
     ["etonekill"]="etoNeKill",
     ["olegakek"]="olegaKek",
+    ["iziosvoenie"]="iziOsvoenie",
+    ["kenona"]="kenona",
+    ["masque"]="masque",
+    ["pepele"]="pepelE",
+    ["pepel"]="pepelE",
     --Discord-style
 	[":bdum_tss:"]="bdumTss",
     [":bdumtss:"]="bdumTss",
@@ -294,6 +304,10 @@ Emoticons_Settings={
     [":eto_kill:"]="etoKill",
     [":eto_ne_kill:"]="etoNeKill",
     [":olega_kek:"]="olegaKek",
+    [":izi_osvoenie:"]="iziOsvoenie",
+    [":kenona:"]="kenona",
+    [":masque:"]="masque",
+    [":pepel_e:"]="pepelE",
     --shortcuts
 	[":bdum:"]="bdumTss",
 	[":dnnn:"]="damagNahuiNeNuzhen",
@@ -331,6 +345,8 @@ Emoticons_Settings={
     [":ek:"]="etoKill",
     [":enk:"]="etoNeKill",
     [":okek:"]="olegaKek",
+    [":izi:"]="iziOsvoenie",
+    [":pe:"]="pepelE",
     --------------------------------------
     --hidden
     --------------------------------------
@@ -338,6 +354,7 @@ Emoticons_Settings={
     ["warcry"]="warCry",
     [":warcry:"]="warCry",
     [":wc:"]="warCry",
+    [":cel:"]="cel",
     --lgbt
     ["lgbt"]="lgbt",
     ["pidor"]="lgbt",
@@ -348,7 +365,6 @@ Emoticons_Settings={
     ["пидорас"]="lgbt",
     ["педик"]="lgbt",
     ["пидр"]="lgbt",
-    [":cel:"]="cel",
   };
   local dropdown_options={
   
@@ -388,7 +404,8 @@ Emoticons_Settings={
             "gloomchmok",
             ":gc:",
             "doubletilt",
-            ":dt:"},
+            ":dt:",
+            "kenona"},
      [03]= {"Тёмные memes", 
             "spsblizzard",
             ":sps:",
@@ -410,7 +427,12 @@ Emoticons_Settings={
             "etokill",
             ":ek:",
             "etonekill",
-            ":enk:"},
+            ":enk:",
+            "pepel",
+            ":pe:",
+            "iziOsvoenie",
+            ":izi:",
+            "masque"},
      [04]= {"Олего-смайлы",
             "ohuelisovsem",
             ":os:",

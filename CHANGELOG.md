@@ -1,5 +1,6 @@
 ##### v1.6.11
 
+ - добавил `ne_shuti_tak`, `masque`, `izi_osvoenie`, `pepel_e`, `kenona` 
  - исправил баг с фоном в списках
  - обновил версию .toc до 9.1.5
 
